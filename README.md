@@ -173,6 +173,15 @@ Providers that periodically renew free credits.
 | OpenRouter | 36 | Free tier + $10 topup → 1K RPD | 1M | Multimodal | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">→</a> |
 <!-- END_RENEWABLE -->
 
+### 🎟️ Trial / Short Free Access
+
+Usable free trials and short free access (paid plans may exist). Format per CONTRIBUTING.
+
+| Provider | Free Quota | Models | Require CC | Note |
+| --- | --- | --- | --- | --- |
+| [N3mak AI Gateway](https://n3mak-buy.vercel.app/) | 20 req/day for 24h via /trial | gpt-oss-20b | No | OpenAI-compatible https://n3mak-gateway.n3mak.workers.dev/v1 · [@N3mak_bot](https://t.me/N3mak_bot) · Pioneer $3 |
+
+
 ## Quick Reference — Base URLs & API Keys
 
 <!-- BEGIN_QUICK_REF -->
@@ -220,8 +229,8 @@ Providers that periodically renew free credits.
 |  | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-1/" target="_blank" rel="noopener">z-ai/glm-5.1</a> | `z-ai/glm-5.1` | 202K | Up to 40 RPM |
 |  | <a href="https://freellm.net/models/nvidia-nim/poolside-laguna-xs-2-1/" target="_blank" rel="noopener">poolside/laguna-xs-2.1</a> | `poolside/laguna-xs-2.1` | 262K | Up to 40 RPM |
 | ModelScope | <a href="https://freellm.net/models/modelscope/minimax-minimax-m2-5/" target="_blank" rel="noopener">MiniMax-M2.5-highspeed</a> | `MiniMax/MiniMax-M2.5` | 204K | See provider |
-|  | <a href="https://freellm.net/models/modelscope/qwen-qwen3-5-35b-a3b/" target="_blank" rel="noopener">Qwen/Qwen3.5-35B-A3B</a> | `qwen-qwen3-5-35b-a3b` | 256K | 2,000 RPD total; &lt;=500.. |
-|  | <a href="https://freellm.net/models/modelscope/qwen-qwen3-5-27b/" target="_blank" rel="noopener">Qwen/Qwen3.5-27B</a> | `qwen-qwen3-5-27b` | 256K | 2,000 RPD total; &lt;=500.. |
+|  | <a href="https://freellm.net/models/modelscope/qwen-qwen3-5-35b-a3b/" target="_blank" rel="noopener">Qwen/Qwen3.5-35B-A3B</a> | `qwen-qwen3-5-35b-a3b` | 256K | 2,000 RPD total; <=500.. |
+|  | <a href="https://freellm.net/models/modelscope/qwen-qwen3-5-27b/" target="_blank" rel="noopener">Qwen/Qwen3.5-27B</a> | `qwen-qwen3-5-27b` | 256K | 2,000 RPD total; <=500.. |
 | Cloudflare Workers AI | <a href="https://freellm.net/models/cloudflare-workers-ai/mistral-mistral-7b-instruct-v0-1/" target="_blank" rel="noopener">Mistral 7B</a> | `@cf/mistral/mistral-7b-instruct-v0.1` | 32K | See provider |
 |  | <a href="https://freellm.net/models/cloudflare-workers-ai/qwen-qwen1-5-7b-chat/" target="_blank" rel="noopener">Qwen 1.5 7B</a> | `@cf/qwen/qwen1.5-7b-chat` | 32K | See provider |
 |  | <a href="https://freellm.net/models/cloudflare-workers-ai/cf-meta-llama-3-3-70b-instruct-fp8-fast/" target="_blank" rel="noopener">@cf/meta/llama-3.3-70b-instruct-fp8-fast</a> | `@cf/meta/llama-3.3-70b-instruct-fp8-fast` | 24K | 10K neurons/day (shared) |
